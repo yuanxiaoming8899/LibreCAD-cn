@@ -1,71 +1,65 @@
-# LibreCAD [![Build Status](https://travis-ci.org/LibreCAD/LibreCAD.svg?branch=master)](https://travis-ci.org/LibreCAD/LibreCAD) 
-
-[→ Download ←](https://github.com/LibreCAD/LibreCAD/wiki/Download)
-
-[LibreCAD](https://www.librecad.org) is a 2D CAD drawing tool
-based on the community edition of [QCAD](https://www.qcad.org).
-LibreCAD uses the cross-platform framework [Qt](https://www.qt.io/download-open-source/),
-which means it works with most operating systems.  
-The user interface is translated in over 30 languages.  https://translate.librecad.org
-
-LibreCAD is free software; you can redistribute it and/or modify  
-it under the terms of the [GNU General Public License version 2](https://www.gnu.org/licenses/gpl-2.0.html) (GPLv2)  
-as published by the Free Software Foundation.  
-Please read the [LICENSE](LICENSE) file for additional information.
-
-The master branch represents the latest pre-release code,  
-and now requires Qt 5.15.4 or newer.  
-The 2.2 branch requires Qt 5.2.1 or newer
-The 2.1 branch will be the last to support Qt4.  
-The 2.0 branch will be the last to support the QCAD toolbar. [![Build Status](https://travis-ci.org/LibreCAD/LibreCAD.svg?branch=2.0)](https://travis-ci.org/LibreCAD/LibreCAD) 
-
-## DXF Converter
-LibreCAD can be used as dxf to a pdf, png or svg converter. For example, to convert a foo.dxf to foo.pdf, foo.png or foo.svg:
-```bash
-$ librecad dxf2pdf foo.dxf
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><h1 tabindex="-1" dir="auto"><a id="user-content-librecad-" class="anchor" aria-hidden="true" tabindex="-1" href="#librecad-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自由CAD</font></font><a href="https://travis-ci.org/LibreCAD/LibreCAD" rel="nofollow"><img src="https://camo.githubusercontent.com/8f07cd76c538158fb8206db03a30aba82d46dcef8e87a23bb176759826cd08e5/68747470733a2f2f7472617669732d63692e6f72672f4c696272654341442f4c696272654341442e7376673f6272616e63683d6d6173746572" alt="构建状态" data-canonical-src="https://travis-ci.org/LibreCAD/LibreCAD.svg?branch=master" style="max-width: 100%;"></a></h1>
+<p dir="auto"><a href="https://github.com/LibreCAD/LibreCAD/wiki/Download"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">→ 下载 ←</font></font></a></p>
+<p dir="auto"><a href="https://www.librecad.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LibreCAD</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一个基于</font></font><a href="https://www.qcad.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">QCAD</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社区版的 2D CAD 绘图工具。</font><font style="vertical-align: inherit;">LibreCAD 使用跨平台框架</font></font><a href="https://www.qt.io/download-open-source/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Qt</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，这意味着它适用于大多数操作系统。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+用户界面被翻译成 30 多种语言。  </font></font><a href="https://translate.librecad.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://translate.librecad.org</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LibreCAD 是免费软件；</font><font style="vertical-align: inherit;">您可以</font><font style="vertical-align: inherit;">
+根据自由软件基金会发布的</font><a href="https://www.gnu.org/licenses/gpl-2.0.html" rel="nofollow"><font style="vertical-align: inherit;">GNU 通用公共许可证版本 2</font></a><font style="vertical-align: inherit;"> (GPLv2)</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+的条款重新分发和/或修改它。</font><font style="vertical-align: inherit;">
+请阅读</font><a href="/LibreCAD/LibreCAD/blob/master/LICENSE"><font style="vertical-align: inherit;">许可证</font></a><font style="vertical-align: inherit;">文件以获取更多信息。</font></font><a href="https://www.gnu.org/licenses/gpl-2.0.html" rel="nofollow"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font><br><font style="vertical-align: inherit;"></font><br><font style="vertical-align: inherit;"></font><a href="/LibreCAD/LibreCAD/blob/master/LICENSE"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">master 分支代表最新的预发布代码，</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+现在需要 Qt 5.15.4 或更高版本。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+2.2 分支需要 Qt 5.2.1 或更高版本 2.1 分支将是最后支持 Qt4。</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+2.0 分支将是最后一个支持 QCAD 工具栏的分支。</font></font><a href="https://travis-ci.org/LibreCAD/LibreCAD" rel="nofollow"><img src="https://camo.githubusercontent.com/5597a2b5e824b703110ca32ba365bcaa52e24f73de3813fef9b36b965a979150/68747470733a2f2f7472617669732d63692e6f72672f4c696272654341442f4c696272654341442e7376673f6272616e63683d322e30" alt="构建状态" data-canonical-src="https://travis-ci.org/LibreCAD/LibreCAD.svg?branch=2.0" style="max-width: 100%;"></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-dxf-converter" class="anchor" aria-hidden="true" tabindex="-1" href="#dxf-converter"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DXF 转换器</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LibreCAD 可以用作 dxf 到 pdf、png 或 svg 的转换器。</font><font style="vertical-align: inherit;">例如，要将 foo.dxf 转换为 foo.pdf、foo.png 或 foo.svg：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>$ librecad dxf2pdf foo.dxf
 $ librecad dxf2png foo.dxf
-$ librecad dxf2svg foo.dxf
-```
-## Releases and Milestones
-
-- [Releases](https://github.com/LibreCAD/LibreCAD/releases)
-- [Milestones](https://github.com/LibreCAD/LibreCAD/milestones)
-
-## libdxfrw
-[libdxfrw](https://sourceforge.net/projects/libdxfrw/) is an associated project that allows LibreCAD to read DWG files.
-
-#
-**Requests and Bug reports**
-
-- [GitHub issues (preferred)](https://github.com/LibreCAD/LibreCAD/issues)
-- [SourceForge tickets (disabled)](https://sourceforge.net/p/librecad/_list/tickets?source=navbar)
-
-**Users Documentation**
-
-- [Users Manual](https://librecad.readthedocs.io/)
-- [Wiki Main Page](https://dokuwiki.librecad.org/)
-
-**Questions or Comments**
-
-- [LibreCAD's Forum](https://forum.librecad.org/)
-- IRC: [#librecad](https://web.libera.chat/#librecad) at libera.chat
-
-**Building**
-
-Requirements:
-
-- [Qt](https://www.qt.io/download-open-source/) 5.2.1+ (MinGW version on Windows)
-- [Boost](https://www.boost.org/)
-
-More information: [Build from source](https://github.com/LibreCAD/LibreCAD/wiki/Build-from-source)
-
-**Contributing**
-
-[Git and GitHub](https://github.com/LibreCAD/LibreCAD/wiki/Git-and-GitHub)
-
-[Becoming a developer](https://github.com/LibreCAD/LibreCAD/wiki/Becoming-a-developer)
-
-There is a [resources repository](https://github.com/LibreCAD/Resources) for people that want to indirectly  
-contribute to the project by supplying icons, stylesheets, documentation, templates...
-
-Associated downloads: <https://sourceforge.net/projects/librecad/files/Resources/>
+$ librecad dxf2svg foo.dxf</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="$ librecad dxf2pdf foo.dxf
+$ librecad dxf2png foo.dxf
+$ librecad dxf2svg foo.dxf" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<h2 tabindex="-1" dir="auto"><a id="user-content-releases-and-milestones" class="anchor" aria-hidden="true" tabindex="-1" href="#releases-and-milestones"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版本和里程碑</font></font></h2>
+<ul dir="auto">
+<li><a href="https://github.com/LibreCAD/LibreCAD/releases"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发布</font></font></a></li>
+<li><a href="https://github.com/LibreCAD/LibreCAD/milestones"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">里程碑</font></font></a></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-libdxfrw" class="anchor" aria-hidden="true" tabindex="-1" href="#libdxfrw"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">libdxfrw</font></font></h2>
+<p dir="auto"><a href="https://sourceforge.net/projects/libdxfrw/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">libdxfrw</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一个关联项目，允许 LibreCAD 读取 DWG 文件。</font></font></p>
+<h1 dir="auto"></h1>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请求和错误报告</font></font></strong></p>
+<ul dir="auto">
+<li><a href="https://github.com/LibreCAD/LibreCAD/issues"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GitHub 问题（首选）</font></font></a></li>
+<li><a href="https://sourceforge.net/p/librecad/_list/tickets?source=navbar" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SourceForge 门票（已禁用）</font></font></a></li>
+</ul>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用户文档</font></font></strong></p>
+<ul dir="auto">
+<li><a href="https://librecad.readthedocs.io/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用户手册</font></font></a></li>
+<li><a href="https://dokuwiki.librecad.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">维基主页</font></font></a></li>
+</ul>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题或意见</font></font></strong></p>
+<ul dir="auto">
+<li><a href="https://forum.librecad.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LibreCAD 论坛</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">IRC：</font></font><a href="https://web.libera.chat/#librecad" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">#librecad</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在 libera.chat</font></font></li>
+</ul>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">建筑</font></font></strong></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要求：</font></font></p>
+<ul dir="auto">
+<li><a href="https://www.qt.io/download-open-source/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Qt</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 5.2.1+（Windows 上的 MinGW 版本）</font></font></li>
+<li><a href="https://www.boost.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">促进</font></font></a></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">详细信息：</font></font><a href="https://github.com/LibreCAD/LibreCAD/wiki/Build-from-source"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从源代码构建</font></font></a></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></strong></p>
+<p dir="auto"><a href="https://github.com/LibreCAD/LibreCAD/wiki/Git-and-GitHub"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Git 和 GitHub</font></font></a></p>
+<p dir="auto"><a href="https://github.com/LibreCAD/LibreCAD/wiki/Becoming-a-developer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">成为一名开发人员</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于想要</font><font style="vertical-align: inherit;">
+通过提供图标、样式表、文档、模板...来间接为项目做出贡献的人们来说</font><font style="vertical-align: inherit;">，有一个</font></font><a href="https://github.com/LibreCAD/Resources"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资源库。</font></font></a><font style="vertical-align: inherit;"></font><br><font style="vertical-align: inherit;"></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相关下载： https: </font></font><a href="https://sourceforge.net/projects/librecad/files/Resources/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//sourceforge.net/projects/librecad/files/Resources/</font></font></a></p>
+</article></div>
